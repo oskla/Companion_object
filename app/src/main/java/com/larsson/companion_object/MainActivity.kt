@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         var account2 = BankAccount("Erik", 20)
         var account3 = BankAccount("Annelie", 17)
 
-        var account1Validated = BankAccount.createAccount("Fredrik", 17)
-        var account2Validated = BankAccount.createAccount("Johanna", 24)
-        
+        val account1Validated = BankAccount.createAccount("Fredrik", 17)
+        val account2Validated = BankAccount.createAccount("Johanna", 24)
+
 
 
         if (account1Validated != null) {
